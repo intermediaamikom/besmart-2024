@@ -47,7 +47,7 @@
 .max-container {
   max-width: 1440px;
   display: flex;
-  justify-content: center;
+  margin: 0 auto;
   width: 100%;
 }
 .padding-container {
@@ -79,36 +79,6 @@
 }
 .text-blue {
   color: #1875ff;
-}
-
-/* navbar */
-
-.navbar {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
-}
-.nav-title {
-  font-size: 20px;
-  font-weight: 800;
-  color: #1875ff;
-}
-
-.nav-link {
-  display: flex;
-  gap: 12px;
-  align-items: center;
-  text-decoration: none;
-  list-style: none;
-}
-.nav-link a {
-  color: #7c7c7c;
-}
-.nav-link a:hover {
-  color: #1875ff;
-  transition: all 0.3s;
 }
 
 /* button */

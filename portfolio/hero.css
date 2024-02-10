@@ -1,0 +1,88 @@
+/* navbar */
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.nav-title {
+  font-size: 20px;
+  font-weight: 800;
+  color: #1875ff;
+}
+
+.nav-link {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+.nav-link a {
+  color: #7c7c7c;
+}
+.nav-link a:hover {
+  color: #1875ff;
+  transition: all 0.3s;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.hero-kiri {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  justify-items: center;
+}
+
+.badge {
+  background-color: #f2fdff;
+  color: #3363ff;
+  padding: 7px 10px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: -20px;
+  border: 1px solid #3363ff;
+  width: fit-content;
+}
+.hero-description {
+  width: 450px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.button-group {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.social {
+  margin: 20px 0;
+}
+
+.social-media {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.hero-kanan {
+  position: relative;
+}
+
+.avatar {
+  width: 550px;
+  position: absolute;
+  bottom: 0;
+  right: 70px;
+}

@@ -8,6 +8,288 @@
 }
 
 
+/*
+   Start Bagian Bintang 
+*/
+
+/* LEFT SECTION*/
+#second-section{
+    min-height: 78vh;
+    display: flex;
+    flex-direction: row;
+    background-color:#f9f9f9;
+    padding: 50px 50px 50px 50px;
+}
+
+#left-section{
+    position: relative;
+    width: 60%;
+}
+
+.blue-rectangle{
+    position: absolute;
+    margin-top: 120px;
+    background-image: linear-gradient(rgba(113, 167, 249, 1), rgba(113, 167, 249, 1), rgba(24, 117, 255, 1));
+    height: 44vh;
+    width:80%;
+    border-radius: 0 30px 30px 0;
+}
+
+#card-1{
+    left: 40px;
+    position: absolute;
+    background-color: white;
+    height: 300px;
+    width: 32%;
+    border-radius: 30px;
+    box-shadow: 2px -2px 51px 3px rgba(58, 137, 255, 0.24);
+    text-align: center;
+}
+
+#card-1 .round-number{
+    margin: 16px 0 0 16px;
+    padding-top: 4px;
+    background-image: linear-gradient(rgb(125, 172, 247), rgb(92, 145, 250), rgb(92, 145, 250));
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+#card-2{
+    position: absolute;
+    left: 250px;
+    top: 100px;
+    background-color: white;
+    height: 300px;
+    width: 32%;
+    border-radius: 30px;
+    box-shadow: 2px -2px 51px 3px rgba(58, 137, 255, 0.24);
+    text-align: center;
+}
+
+#card-2 .round-number{
+    margin: 16px 0 0 16px;
+    padding-top: 4px;
+    background-image: linear-gradient(rgb(125, 172, 247), rgb(92, 145, 250), rgb(92, 145, 250));
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+#card-3{
+    left: 450px;
+    position: absolute;
+    background-color: white;
+    height: 300px;
+    width: 32%;
+    border-radius: 30px;
+    box-shadow: 2px -2px 51px 3px rgba(58, 137, 255, 0.24);
+    text-align: center;
+}
+
+#card-3 .round-number{
+    margin: 16px 0 0 16px;
+    padding-top: 4px;
+    background-image: linear-gradient(rgb(125, 172, 247), rgb(92, 145, 250), rgb(92, 145, 250));
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+
+.card-image{
+    margin: auto;
+    margin-top: 30px;
+    height: 100px;
+    width: 100px;
+}
+
+.card-title-experience{
+    margin-top: 30px;
+    color: rgba(28, 116, 154, 1);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.card-title-years-experience{
+    color: rgba(64, 204, 29, 1);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* RIGHT SECTION */
+#right-section{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.title-service{
+    padding: 50px 0 0 20px;
+    color: red;
+    font-weight: 600;
+}
+
+.what-can-i-do{
+    padding: 20px 0 0 20px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.content{
+    padding: 20px 150px 0 20px;
+    font-size: 15px;
+}
+
+.divider{
+    margin: 20px 140px 0 20px;
+    height: 1px;
+    background-color: rgb(164, 168, 199);
+}
+
+.see-my-project-section{
+    margin: 20px 0 0 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.btn-see-my-project{
+    padding-top: 14px;
+    background-color: black;
+    height: 52px;
+    width: 170px;
+    text-align: center;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 15px;
+    box-shadow: 2px 7px 20px rgba(38, 44, 52, 0.3);
+}
+
+.btn-see-my-project span{
+    color: white;
+}
+
+.number-and-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.number-and-title span{
+    font-weight: 400;
+    font-size: 12px;
+}
+/*
+    End Bagian Bintang 
+*/
+
+#third-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 40px 40px 40px 40px;
+}
+
+#work-experiences {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    padding: 32px 80px 32px 80px;
+}
+
+#cards-work {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-work {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    gap: 24px;
+}
+
+.card-work-title {
+    font-weight: bold;
+    color: black;
+    font-size: 1.2em;
+}
+
+.card-work img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+#recent-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    background-image: url('./images/bgproject.png');
+    padding: 32px 80px 32px 80px;
+}
+
+#cards-project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-project{
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;    
+}
+
+.card-project img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.card-project span {
+    font-weight: bold;
+}
+
+.card-project a {
+    width: 100%;
+    background-color: #272727;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: white;
+    gap: 8px;
+}
+
+.card-project a span {
+    color: white;
+}
+
+.card-project a svg {
+    fill: white;
+    width: 24px;
+    height: auto;
+}
+
+
 /* container */
 .max-container {
   max-width: 1440px;

@@ -1,0 +1,115 @@
+#fifth-section {
+    background-color: #F9F9F9;
+    padding: 32px;
+}
+
+.fifth-section-title {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.testimony {
+    padding: 16px;
+    text-align: center;
+    max-width: 720px;
+    margin: auto;
+}
+
+.testimony-customer-name {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.testimony-customer-proffesion {
+    font-size: 16px;
+    color: #1875FF;
+    margin-bottom: 12px;
+}
+.testimony-customer-message {
+    margin-bottom: 48px;
+}
+.testimony-customer-profile {
+    width: 92px;
+    height: 92px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.testimony-customer-profile > img {
+    width: 100%;
+}
+
+.sixth-section {
+    padding: 16px;
+}
+
+.subscription-box {
+    max-width: 960px;
+    margin: 32px auto;
+    background-color: #1875FF;
+    border-radius: 12px;
+    padding: 18px 20px;
+}
+.subscription-label {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: white;
+}
+.subscription-layout {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.subscription-message {
+    width: 50%;
+}
+.subscription-message h2 {
+    margin-bottom: 12px;
+    color: white;
+}
+.subscription-message p {
+    color: white;
+    font-size: smaller;
+    font-weight: 100;
+}
+.subscription-form {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    gap: 4px;
+}
+.subscription-form-input {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: #1565DC;
+    width: 100%;
+}
+.subscription-form-button {
+    border: none;
+    background: #F19696;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: white;
+}
+
+footer {
+    margin-top: 48px;
+    padding: 16px;
+    max-width: 960px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.social-media {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.img-sosmed {
+    width: 28px;
+    height: 28px;
+}

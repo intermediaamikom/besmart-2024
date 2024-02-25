@@ -12,7 +12,11 @@
     <title>My Portfolio</title>
 
     <link rel="stylesheet" href="./index.css" />
+
     <link rel="stylesheet" href="./hero.css" />
+
+    <link rel="stylesheet" href="./didi.css" />
+
   </head>
   <body>
     <!-- Hero section bagian taufik -->
@@ -58,7 +62,7 @@
           <div class="card-work">
             <img src="./images/iitc.png" alt="my first work" />
             <div>
-              <span>Intermedia</span>
+              <span class="card-work-title">Intermedia</span>
               <span>Jan - Aug 2023</span>
             </div>
             <hr />
@@ -71,7 +75,7 @@
           <div class="card-work">
             <img src="./images/iitc.png" alt="my first work" />
             <div>
-              <span>Intermedia</span>
+              <span class="card-work-title">Intermedia</span>
               <span>Jan - Aug 2023</span>
             </div>
             <hr />
@@ -84,7 +88,7 @@
           <div class="card-work">
             <img src="./images/iitc.png" alt="my first work" />
             <div>
-              <span>Intermedia</span>
+              <span class="card-work-title">Intermedia</span>
               <span>Jan - Aug 2023</span>
             </div>
             <hr />
@@ -105,18 +109,68 @@
           <div class="card-project">
             <img src="./images/raimu.png" alt="my first work" />
             <span>Intermedia</span>
-            <a href="#"> Demo Web </a>
-          </div>
-          <div class="card-project">
-            <img src="./images/raimu.png" alt="my first work" />
-            <span>Intermedia</span>
-            <a href="#"> Demo Web </a>
-          </div>
 
+            <a href="#">
+              <span>Demo Web</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                style="width: 24px; height: 24px;"
+              >
+                <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                <path
+                  fill-rule="evenodd"
+                  d="M1.323 11.447C2.811 6.976 7.028 3.75 12.001 3.75c4.97 0 9.185 3.223 10.675 7.69.12.362.12.752 0 1.113-1.487 4.471-5.705 7.697-10.677 7.697-4.97 0-9.186-3.223-10.675-7.69a1.762 1.762 0 0 1 0-1.113ZM17.25 12a5.25 5.25 0 1 1-10.5 0 5.25 5.25 0 0 1 10.5 0Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+
+          </div>
           <div class="card-project">
             <img src="./images/raimu.png" alt="my first work" />
             <span>Intermedia</span>
-            <a href="#"> Demo Web </a>
+
+            <a href="#">
+              <span>Demo Web</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                style="width: 24px; height: 24px;"
+              >
+                <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                <path
+                  fill-rule="evenodd"
+                  d="M1.323 11.447C2.811 6.976 7.028 3.75 12.001 3.75c4.97 0 9.185 3.223 10.675 7.69.12.362.12.752 0 1.113-1.487 4.471-5.705 7.697-10.677 7.697-4.97 0-9.186-3.223-10.675-7.69a1.762 1.762 0 0 1 0-1.113ZM17.25 12a5.25 5.25 0 1 1-10.5 0 5.25 5.25 0 0 1 10.5 0Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+
+          </div>
+          <div class="card-project">
+            <img src="./images/raimu.png" alt="my first work" />
+            <span>Intermedia</span>
+
+            <a href="#">
+              <span>Demo Web</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                style="width: 24px; height: 24px;"
+              >
+                <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                <path
+                  fill-rule="evenodd"
+                  d="M1.323 11.447C2.811 6.976 7.028 3.75 12.001 3.75c4.97 0 9.185 3.223 10.675 7.69.12.362.12.752 0 1.113-1.487 4.471-5.705 7.697-10.677 7.697-4.97 0-9.186-3.223-10.675-7.69a1.762 1.762 0 0 1 0-1.113ZM17.25 12a5.25 5.25 0 1 1-10.5 0 5.25 5.25 0 0 1 10.5 0Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </a>
+
           </div>
         </div>
       </section>
@@ -125,8 +179,52 @@
 
     <!-- bagian iwan -->
     <div id="fifth-section">
-      <h1>What people says about me?</h1>
+      <h1 class="fifth-section-title">What people says about me?</h1>
+      <div class="testimony">
+        <h2 class="testimony-customer-name">Fatimura</h2>
+        <p class="testimony-customer-proffesion">UI/UX Designer</p>
+        <p class="testimony-customer-message">
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dicta ducimus magnam, earum similique amet, nobis temporibus nihil assumenda sequi dolorem tempora iure cum ratione quas velit reiciendis qui blanditiis fugit modi sint aliquid quia tenetur repellendus? Quas tempora officiis amet porro voluptatum laborum assumenda culpa aperiam aut, maxime quibusdam?"
+        </p>
+        <div class="testimony-customer-profile">
+          <img src="./images/fatimura.png" alt="Fatimura">
+        </div>
+      </div>
     </div>
+
+    <div class="sixth-section">
+      <div class="subscription-box">
+        <h1 class="subscription-label">Subscription</h1>
+        <div class="subscription-layout">
+          <div class="subscription-message">
+            <h2>Get news about my projects</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque augue convallis ut egestas commodo magna bibendum ut. Odio feugiat eu ipsum netus libero ut nunc nulla. Ultricies nibh venenatis eget sagittis.</p>
+          </div>
+          <form class="subscription-form" action="">
+            <input type="text" class="subscription-form-input">
+            <button class="subscription-form-button">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <h1 class="text-blue text-md">Portfolio</h1>
+      <div class="social-media">
+        <a href="javascript:void(0)">
+          <img src="./images/icons/twitter.svg" alt="" class="img-sosmed">
+        </a>
+        <a href="javascript:void(0)">
+          <img src="./images/icons/facebook.svg" alt="" class="img-sosmed">
+        </a>
+        <a href="javascript:void(0)">
+          <img src="./images/icons/linkedin.svg" alt="" class="img-sosmed">
+        </a>
+        <a href="javascript:void(0)">
+          <img src="./images/icons/instagram.svg" alt="" class="img-sosmed">
+        </a>
+      </div>
+    </footer>
     <!-- end bagian iwan -->
   </body>
 </html>

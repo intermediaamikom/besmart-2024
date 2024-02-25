@@ -1,63 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  color: #272727;
-  text-decoration: none;
-  font-family: "Poppins", sans-serif;
-}
-
-
-/* container */
-.max-container {
-  max-width: 1440px;
-  display: flex;
-  margin: 0 auto;
-  width: 100%;
-}
-.padding-container {
-  padding: 0 24px;
-}
-
-/* text style */
-.text-sm {
-  font-size: 16px;
-}
-.text-md {
-  font-size: 24px;
-}
-.text-lg {
-  font: 48px;
-}
-
-.text-xl {
-  font-size: 64px;
-}
-
-/* text color */
-.text-dark {
-  color: #272727;
-}
-
-.text-semidark {
-  color: #585858;
-}
-.text-blue {
-  color: #1875ff;
-}
-
-
-/* button */
-.button-blue {
-  background: linear-gradient(180deg, #63cdfa 0%, #1875ff 100%);
-  padding: 12px 24px;
-  border-radius: 50px;
-  color: #fff;
-  font-weight: 500;
-  /* large shadow blue */
-  box-shadow: 2px 7px 20px rgba(24, 117, 255, 0.3);
-
-/* start bagian iwan*/
 #fifth-section {
     background-color: #F9F9F9;
     padding: 32px;
@@ -172,23 +112,4 @@ footer {
 .img-sosmed {
     width: 28px;
     height: 28px;
-}
-/* end bagian iwan*/
-
-/* navbar */
-
-.navbar{
-width: 100%;
- display: flex;
- justify-content: space-between;
- align-items: center;
-
-}
-
-.button-dark {
-  background-color: #272727;
-  padding: 12px 24px;
-  border-radius: 50px;
-  color: #fff;
-  font-weight: 500;
 }

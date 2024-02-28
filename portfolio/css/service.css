@@ -1,196 +1,103 @@
 /* LEFT SECTION*/
 .service {
-  min-height: 100vh;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: #f9f9f9;
-  padding: 50px 50px 50px 50px;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(222, 238, 243);
 }
-
+/* service kiri */
 .service-kiri {
   position: relative;
   width: 60%;
 }
-
-.blue-rectangle {
+.service-card-group {
   position: absolute;
-  margin-top: 120px;
-  left: -100px;
-  background-image: linear-gradient(
-    rgba(113, 167, 249, 1),
-    rgba(113, 167, 249, 1),
-    rgba(24, 117, 255, 1)
-  );
-  height: 44vh;
-  width: 100%;
-  border-radius: 0 30px 30px 0;
-}
+  top: -50px;
+  left: 100px;
 
-.card-1 {
-  left: 40px;
-  position: absolute;
-  background-color: white;
-  height: 300px;
-  width: 32%;
-  border-radius: 30px;
-  box-shadow: 2px -2px 51px 3px rgba(58, 137, 255, 0.24);
-  text-align: center;
+  display: flex;
 }
-
-.card-1 .round-number {
-  margin: 16px 0 0 16px;
-  padding-top: 4px;
-  background-image: linear-gradient(
-    rgb(125, 172, 247),
-    rgb(92, 145, 250),
-    rgb(92, 145, 250)
-  );
-  height: 30px;
-  width: 30px;
+.service-card {
+  background: white;
   border-radius: 20px;
-  text-align: center;
-  color: white;
-  font-weight: 600;
-}
-
-.card-2 {
-  position: absolute;
-  left: 250px;
-  top: 100px;
-  background-color: white;
+  box-shadow: 0px 4px 15px 1px rgb(58, 137, 255, 0.2);
+  padding: 20px;
+  width: 250px;
   height: 300px;
-  width: 32%;
-  border-radius: 30px;
-  box-shadow: 2px -2px 51px 3px rgba(58, 137, 255, 0.24);
-  text-align: center;
-}
-
-.card-2 .round-number {
-  margin: 16px 0 0 16px;
-  padding-top: 4px;
-  background-image: linear-gradient(
-    rgb(125, 172, 247),
-    rgb(92, 145, 250),
-    rgb(92, 145, 250)
-  );
-  height: 30px;
-  width: 30px;
-  border-radius: 20px;
-  text-align: center;
-  color: white;
-  font-weight: 600;
-}
-
-.card-3 {
-  left: 450px;
-  position: absolute;
-  background-color: white;
-  height: 300px;
-  width: 32%;
-  border-radius: 30px;
-  box-shadow: 2px -2px 51px 3px rgba(58, 137, 255, 0.24);
-  text-align: center;
-}
-
-.card-3 .round-number {
-  margin: 16px 0 0 16px;
-  padding-top: 4px;
-  background-image: linear-gradient(
-    rgb(125, 172, 247),
-    rgb(92, 145, 250),
-    rgb(92, 145, 250)
-  );
-  height: 30px;
-  width: 30px;
-  border-radius: 20px;
-  text-align: center;
-  align-items: center;
-  color: white;
-  font-weight: 600;
-}
-
-.card-image {
-  margin: auto;
-  margin-top: 30px;
-  height: 100px;
-  width: 100px;
-  object-fit: cover;
-}
-
-.card-title-experience {
-  margin-top: 30px;
-  color: rgba(28, 116, 154, 1);
-  font-weight: 700;
-  font-size: 16px;
-}
-
-.card-title-years-experience {
-  color: rgba(64, 204, 29, 1);
-  font-weight: 600;
-  font-size: 14px;
-}
-
-/* RIGHT SECTION */
-.service-kanan {
   display: flex;
   flex-direction: column;
-  width: 50%;
-}
-
-.title-service {
-  padding: 50px 0 0 20px;
-  color: red;
-  font-weight: 600;
-}
-
-.what-can-i-do {
-  padding: 20px 0 0 20px;
-  font-weight: 600;
-  font-size: 40px;
-}
-
-.content {
-  padding: 20px 150px 0 20px;
-  font-size: 15px;
-}
-
-.divider {
-  margin: 20px 140px 0 20px;
-  height: 1px;
-  background-color: rgb(164, 168, 199);
-}
-
-.see-my-project-section {
-  margin: 20px 0 0 20px;
-  display: flex;
-  flex-direction: row;
   gap: 20px;
+  margin-left: -50px;
 }
 
-.btn-see-my-project {
-  padding-top: 14px;
-  background-color: black;
-  height: 52px;
-  width: 170px;
-  text-align: center;
-  border-radius: 30px;
-  font-weight: 600;
-  font-size: 15px;
-  box-shadow: 2px 7px 20px rgba(38, 44, 52, 0.3);
-}
-
-.btn-see-my-project span {
+.service-card .service-card-number {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top left, rgb(69, 69, 255), lightblue);
   color: white;
+  font-weight: bold;
 }
 
-.number-and-title {
+.service-card img {
+  width: 80px;
+  margin: 20px auto;
+}
+
+.service-card-detail {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+}
+.service-detail-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: blue;
+  text-transform: uppercase;
+}
+.service-detail-year {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgb(19, 231, 19);
+  text-transform: capitalize;
+}
+/* service kanan */
+
+.service-kanan {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.service-kanan-description {
+  text-align: justify;
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.service-kanan-action {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
 }
 
-.number-and-title span {
-  font-weight: 400;
+.service-kanan-action-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.action-detail-number {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.action-detail-text {
   font-size: 12px;
+  color: #6d6d6d;
+  text-transform: capitalize;
 }

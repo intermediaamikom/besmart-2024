@@ -1,0 +1,35 @@
+.project-background {
+  background-image: url("../images/bgproject.png");
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.projects {
+  width: 100%;
+  padding: 100px 0;
+}
+.project-lists {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 20px 0;
+}
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 24px;
+  width: 28%;
+}
+.project-image {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.project-name {
+  font-weight: bold;
+}

@@ -55,22 +55,32 @@
 /* button calss */
 
 .button-blue {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
   background: linear-gradient(180deg, #63cdfa 0%, #1875ff 100%);
   padding: 12px 24px;
   border-radius: 50px;
   color: #fff;
-  font-weight: 500;
-  /* large shadow blue */
+  font-weight: 700;
+  width: fit-content;
+  gap: 10px;
   box-shadow: 2px 7px 20px rgba(24, 117, 255, 0.3);
 }
 
 .button-dark {
-  background-color: #272727;
-  padding: 12px 24px;
-  border-radius: 50px;
-  color: #fff;
-  font-weight: 700;
-  text-transform: capitalize;
+  width: 100%;
   height: 50px;
+  display: flex;
+  background-color: #272727;
+  text-transform: capitalize;
+  padding: 12px 24px;
+  color: #fff;
+  border-radius: 50px;
+  font-weight: 700;
   text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
 }

@@ -1,0 +1,46 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 50px;
+}
+
+.contact-card {
+  width: 90%;
+  border-radius: 20px;
+  background: linear-gradient(to top right, #0059ff, #7070ff);
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  color: white;
+}
+.contact-title {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.contact-text {
+  font-size: 30px;
+  font-weight: bolder;
+  width: 50%;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.contact-button {
+  height: 50px;
+  display: flex;
+  background-color: #272727;
+  text-transform: capitalize;
+  padding: 12px 24px;
+  color: #fff;
+  border-radius: 50px;
+  font-weight: 700;
+  text-decoration: none;
+  justify-content: center;
+  gap: 12px;
+}

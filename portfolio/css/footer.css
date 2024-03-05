@@ -1,0 +1,10 @@
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+.webname {
+  font-weight: bold;
+  color: blue;
+}

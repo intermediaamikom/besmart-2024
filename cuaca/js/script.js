@@ -5,6 +5,8 @@ const cuacaUtamaIcon = document.getElementById('cuaca-utama-icon');
 const cuacaUtamaTemp = document.getElementById('cuaca-utama-temp');
 const cuacaUtamaWind = document.getElementById('cuaca-utama-wind');
 const cuacaUtamahumidity = document.getElementById('cuaca-utama-humidity');
+const cuacaUtamaPressure = document.getElementById('cuaca-utama-pressure');
+const cuacaUtamaLabel = document.getElementById('cuaca-utama-label');
 
 const cuaca1Icon = document.getElementById('cuaca-1-icon');
 const cuaca1Temp = document.getElementById('cuaca-1-temp');
@@ -36,10 +38,13 @@ async function getWeather(city = 'purwokerto') {
     }).then((result) => {
         const cuacaUtamaDate = new Date(result.list[0].dt * 1000)
         console.log(cuacaUtamaDate.getHours());
+
         cuacaUtamaIcon.src = getImage(result.list[0].weather[0].main);
         cuacaUtamaTemp.innerText = result.list[0].main.temp + "°C"
         cuacaUtamaWind.innerText = result.list[0].wind.speed + " km/hr";
         cuacaUtamahumidity.innerText = result.list[0].main.humidity + "%";
+        cuacaUtamaPressure.innerText = result.list[0].main.pressure + " hPa";
+        cuacaUtamaLabel.innerText = result.list[0].weather[0].description;
 
         cuaca1Icon.src = getImage(result.list[1].weather[0].main);
         cuaca1Temp.innerText = result.list[1].main.temp + "°C"
